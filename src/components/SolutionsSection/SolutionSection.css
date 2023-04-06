@@ -1,0 +1,10 @@
+.solution-card {
+  width: 90%;
+  margin: auto;
+}
+
+.solutions {
+  display: flex;
+  justify-content: space-between; /* Alinear los elementos en los extremos */
+  align-items: center; /* Alinear los elementos verticalmente en el centro */
+}
