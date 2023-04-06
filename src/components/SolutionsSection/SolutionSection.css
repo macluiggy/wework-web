@@ -8,3 +8,7 @@
   justify-content: space-between; /* Alinear los elementos en los extremos */
   align-items: center; /* Alinear los elementos verticalmente en el centro */
 }
+
+.solution-card__container {
+  display: flex;
+}
