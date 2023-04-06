@@ -1,0 +1,19 @@
+.product-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.product-description__text {
+  flex-basis: 30%;
+  padding: 0 2rem;
+}
+
+.product-description__image {
+  flex-basis: 70%;
+}
+
+.product-description__image img {
+  max-width: 100%;
+  height: auto;
+}

@@ -4,10 +4,22 @@
   align-items: center;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 99.0%;
+  margin: 0 auto;
   height: 80px;
   background-color: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 100;
-  border: solid;
+  /* border: solid */
 }
+
+.header__button {
+  margin: 1rem 0 0 10rem;
+}
+
+.header__text:hover {
+  border-bottom: 2px solid black;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+

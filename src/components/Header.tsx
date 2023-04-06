@@ -1,5 +1,5 @@
-import './header.css';
-import reactSvg from '../assets/wework.png';
+import "./header.css";
+import reactSvg from "../assets/wework.png";
 
 const Header = () => {
   return (
@@ -8,19 +8,19 @@ const Header = () => {
         <img src={reactSvg} alt="Logo" />
       </div>
       <div className="header__text">
-        <p>Texto 1</p>
+        <p>Encuentra una ubicacion</p>
       </div>
       <div className="header__text">
-        <p>Texto 2</p>
+        <p>Soluciones</p>
       </div>
       <div className="header__text">
-        <p>Texto 3</p>
+        <p>Grandes empresas</p>
       </div>
       <div className="header__button">
-        <button>Botón</button>
+        <button>Contacto</button>
       </div>
       <div className="header__text">
-        <p>Otro Texto</p>
+        <p>Inicio de sesion de miembros</p>
       </div>
     </div>
   );
